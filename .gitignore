@@ -1,0 +1,7 @@
+public/Images
+public/TrainedData
+.idea/*
+test_2.py
+test.py
+src/SERVER
+__pycache__/
