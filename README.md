@@ -9,7 +9,7 @@
 + Run command `cd Face-Recognition-for-Attendance`.
 + Create a Virtual environment in Windows using `python -m venv Face_Recognition_ENV`
 + Run the command `Face_Recognition_ENV\Scripts\activate` to activate the virtual Environment.
-+ Installing packages required, in the virtual environment using the command "pip install -r requirements.txt".
++ Installing packages required, in the virtual environment using the command `pip install -r requirements.txt`.
 + Run `python App.py` this will run the program.
 
 ## :motorcycle: Other Repositories
