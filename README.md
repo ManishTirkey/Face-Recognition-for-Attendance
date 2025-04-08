@@ -5,12 +5,25 @@
 ## [CustomTkinter](https://customtkinter.tomschimansky.com/documentation/) based Facial Recognition for Attendance.
 ## :seedling: Getting Started
 
-+ To run this code use `https://github.com/ManishTirkey/Face-Recognition-for-Attendance.git` to clone.
-+ Run command `cd Face-Recognition-for-Attendance`.
-+ Create a Virtual environment in Windows using `python -m venv Face_Recognition_ENV`
-+ Run the command `Face_Recognition_ENV\Scripts\activate` to activate the virtual Environment.
-+ Installing packages required, in the virtual environment using the command `pip install -r requirements.txt`.
+#### Download MySql [Mysql](https://dev.mysql.com/downloads/installer/)
+
++ To run this code use by 
+```
+https://github.com/ManishTirkey/Face-Recognition-for-Attendance.git
+cd Face-Recognition-for-Attendance
+python -m venv Face_Recognition_ENV
+Face_Recognition_ENV\Scripts\activate
+pip install -r requirements.txt.
+```
+Before running the Project make sure you have configured database host, password and and database name
+
++ `go to public` and run `python DB_config.py` (DB_config.py does all the configuration for you.)
 + Run `python App.py` this will run the program.
+
+if something goes wrong you can clean the project by resetting the database and trained.yml and images.
+```
+python Clean_data.py
+```
 
 ## :motorcycle: Other Repositories
 - [Youtube Video Download App](https://github.com/ManishTirkey/Download_youtube_Videos)
