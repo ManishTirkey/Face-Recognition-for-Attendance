@@ -15,9 +15,9 @@ python -m venv Face_Recognition_ENV
 Face_Recognition_ENV\Scripts\activate
 pip install -r requirements.txt.
 ```
-Before running the Project make sure you have configured database host, password and and database name
+Before running the Project make sure you have configured database host, password and and database name into `DB_config.py`
 
-+ `go to public` and run `python DB_config.py` (DB_config.py does all the configuration for you.)
++ `go to public` and run `python DB_initialize.py` (DB_config.py does all the configuration for you.)
 + Run `python App.py` this will run the program.
 
 if something goes wrong you can clean the project by resetting the database and trained.yml and images.
